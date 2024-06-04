@@ -35,7 +35,7 @@ public class Poll {
     @Column(name = "visibility")
     private Boolean visibility;
 
-    @OneToMany(mappedBy = "poll", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "poll", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Question> questions;
 
     public Long getId() {

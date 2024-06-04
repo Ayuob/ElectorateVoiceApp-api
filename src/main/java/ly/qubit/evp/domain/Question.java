@@ -1,5 +1,6 @@
 package ly.qubit.evp.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.List;
 import javax.persistence.*;
 import lombok.Getter;
@@ -19,11 +20,12 @@ public class Question {
     @Column(name = "content", nullable = false)
     private String content;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "poll_id")
     private Poll poll;
 
-    @OneToMany(mappedBy = "question", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "question", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Answer> answers;
 
     public Long getId() {
