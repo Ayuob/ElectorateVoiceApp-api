@@ -5,8 +5,6 @@ import javax.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
 @Entity
 @Table(name = "answers")
 public class Answer {

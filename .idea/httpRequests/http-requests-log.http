@@ -1,172 +1,559 @@
-GET http://localhost:8080/api/polls
+DELETE http://localhost:8080/api/polls/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T100741.200.txt
+
+###
+
+DELETE http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T100618.200.txt
+
+###
+
+DELETE http://localhost:8080/api/polls/9
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T100602.401.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 436
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith U",
+  "description": "This poll is coll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35",
+  "endDate": "2024-10-09T12:07:35",
+  "visibility": true
+
+}
+
+<> 2024-06-06T095719.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T095608.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 159
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith U",
+  "startDate": "2024-07-02T12:07:35",
+  "endDate": "2024-10-09T12:07:35",
+  "visibility": true}
+
+<> 2024-06-06T095554.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 433
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith U",
+  "description": "This poll is coll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35",
+  "endDate": "2024-10-09T12:07:35",
+  "visibility": true}
+
+<> 2024-06-06T095521.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T095457.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 425
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith U",
+  "description": "This poll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35",
+  "endDate": "2024-10-09T12:07:35",
+  "visibility": true}
+
+<> 2024-06-06T095446.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 424
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith",
+  "description": "This poll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35",
+  "endDate": "2024-10-09T12:07:35",
+  "visibility": false}
+
+<> 2024-06-06T095356.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 434
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith",
+  "description": "This poll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35.645463",
+  "endDate": "2024-10-09T12:07:35.00",
+  "visibility": false}
+
+<> 2024-06-06T095316.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T095255.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 438
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith",
+  "description": "This poll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-07-02T12:07:35.645463",
+  "endDate": "2024-10-09T12:07:35.652462",
+  "visibility": false}
+
+<> 2024-06-06T095245.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T095215.200.json
+
+###
+
+PUT http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 438
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Candidate Comparison: Jane Doe vs. John Smith",
+  "description": "This poll aims to gather public opinion on various aspects of the two candidates running for the parliamentary seat. Your responses will help us understand the electorate's views on their policies, leadership qualities, and overall favorability.",
+  "startDate": "2024-06-02T12:07:35.645463",
+  "endDate": "2024-06-09T12:07:35.652462",
+  "visibility": false}
+
+<> 2024-06-06T095157.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T095054.200.json
+
+###
+
+DELETE http://localhost:8080/api/questions/12
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T093617.200.txt
+
+###
+
+DELETE http://localhost:8080/api/questions/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T093515.200.txt
+
+###
+
+PUT http://localhost:8080/api/questions/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{  "content": "UPDATED tow times Which candidate do you support on healthcare policy?"}
+
+<> 2024-06-06T093349.200.json
+
+###
+
+PUT http://localhost:8080/api/questions/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{  "content": "UPDATED tow times Which candidate do you support on healthcare policy?"}
+
+<> 2024-06-06T093227.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T092958.200.json
+
+###
+
+GET http://localhost:8080/api/polls/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/polls/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/polls/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/polls/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+<> 2024-06-06T092055.200.json:
+<> 2024-06-06T090452.200.json:
+<> 2024-06-06T090434.200.json:
+<> 2024-06-06T085113.200.json:
+<> 2024-06-06T084639.200.json:
+<> 2024-06-06T084624.401.json:
+<> 2024-06-04T212153.200.json:
+<> 2024-06-04T211403.500.json:
+<> 2024-06-04T210544.200.json:
+<> 2024-06-04T210356.200.json:
+<> 2024-06-04T210041.200.json:
+<> 2024-06-04T205656.200.json:
+<> 2024-06-04T204526.200.json:
+<> 2024-06-04T204358.200.json:
+<> 2024-06-04T204322.200.json:
+<> 2024-06-04T203521.500.json:
+<> 2024-06-04T203457.401.json:
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/polls/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+PUT http://localhost:8080/api/questions/13
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 169
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{  "content": "UPDATED Which candidate do you support on healthcare policy?",  "answers": [    {"content": "UPDATED Jane Doe"},    {"content": " UPDATED John Smith"}  ]}
+
+<> 2024-06-06T092344.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T092055.200.json
+
+###
+
+PUT http://localhost:8080/api/answers/23
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+content-type: application/json
+Content-Length: 27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{  "content": "John Smith"}
+
+<> 2024-06-06T091939.200.json
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T091624.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T091425.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090947.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/23
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090714.200.txt
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090452.200.json
+
+###
+
+DELETE http://localhost:8080/api/answers/23
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090446.200.txt
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090434.200.json
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090427.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T090205.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T085616.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T085159.200.txt
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T085113.200.json
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T085039.200.txt
+
+###
+
+DELETE http://localhost:8080/api/answers/24
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T085018.401.json
+
+###
+
+POST http://localhost:8080/api/polls/9/responses/anonymous
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T084703.401.json
+
+###
+
+GET http://localhost:8080/api/polls/9
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-06T084639.200.json
+
+###
+
+GET http://localhost:8080/api/polls/9
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-06-04T212229.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T212153.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T211403.500.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T211351.200.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T210643.200.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T210637.401.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T210544.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T210356.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T210041.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T205656.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T204526.200.json
-
-###
-
-GET http://localhost:8080/api/polls/8
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T204358.200.json
-
-###
-
-GET http://localhost:8080/api/polls/7
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T204322.200.json
-
-###
-
-GET http://localhost:8080/api/polls/15
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:8080/api/polls/15
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T203521.500.json
-
-###
-
-GET http://localhost:8080/api/polls/15
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-04T203457.401.json
-
-###
-
-GET http://localhost:8080/api/polls/8/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T232928.200.json
+<> 2024-06-06T084624.401.json
 
 ###
 
 POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzc0MjcyMn0.CnR4hsaxGy4ah752ciDUXTbP7ewtoD_rsJzpm7wmVyBPFPt63oZG41XZzExnNJrGmEnnoYQU6k-W9j5HpfyH8w
 content-type: application/json
 Content-Length: 1341
 Connection: Keep-Alive
@@ -218,7 +605,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   ]
 }
 
-<> 2024-06-03T232855.200.json
+<> 2024-06-06T084600.200.json
 
 ###
 
@@ -234,12 +621,12 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 "password": "admin"
 }
 
-<> 2024-06-03T232826.200.json
+<> 2024-06-06T084522.200.json
 
 ###
 
 POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
 content-type: application/json
 Content-Length: 1341
 Connection: Keep-Alive
@@ -291,389 +678,17 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   ]
 }
 
-<> 2024-06-03T232758.403.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T231914.200.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T231731.500.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T231457.500.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T231203.500.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T231038.500.json
-
-###
-
-GET http://localhost:8080/api/polls/1/results
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNTE2NX0.75T1FtmuErXG3lkkt3itykVqQQmrAkPfmfk6Cg21Jo-z8U-1jxbguwdo9cV8XP9S2rtqnIQ4T8Yb8jGZx6FGGg
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-03T230916.500.json
-
-###
-
-POST http://localhost:8080/api/authenticate
-Content-Type: application/json
-Content-Length: 44
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "username": "user",
-"password": "user"
-}
-
-<> 2024-06-03T230606.200.json
+<> 2024-06-06T084501.401.json
 
 ###
 
 GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTcxNzUzNjUwNn0.MPa0OFf3lN0v3dQlOqrTkeFrKf2GLCZf_2Yf2IiB9doYumCyL4U4Nc88km5iLVQhaXMmwIkoaTP70JoEOIAPOA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-06-02T151056.200.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T151019.200.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T145253.200.json
-
-###
-
-GET http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T143101.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 204
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{"title":"full poll","description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true,"questions":[{"content":"test","answers":[{"content":"test"}]}]}
-
-<> 2024-06-02T132257.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 145
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{"title":"poll with timeDate as string","description":"test","startDate":"2023-06-01T00:00:00","endDate":"2023-06-30T23:59:59","visibility":true}
-
-<> 2024-06-02T131101.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 149
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{"title":"poll with timeDate as string","description":"test","startDate":"2023-06-01 T 00:00:00","endDate":"2023-06-30 T 23:59:59","visibility":true}
-
-<> 2024-06-02T125135.400.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 145
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{"title":"poll with timeDate as string","description":"test","startDate":"2023-06-01 00:00:00","endDate":"2023-06-30 23:59:59","visibility":true}
-
-<> 2024-06-02T124730.400.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 204
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{"title":"full poll","description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true,"questions":[{"content":"test","answers":[{"content":"test"}]}]}
-
-<> 2024-06-02T124138.500.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 141
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{  "title":"test4",  "description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true
-}
-
-<> 2024-06-02T123918.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 141
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{  "title":"test2",  "description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true
-}
-
-<> 2024-06-02T123909.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 151
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id":1,
-  "title":"test",  "description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true
-}
-
-<> 2024-06-02T123507.200.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 268
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id":1,
-  "title":"test",  "description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true,
-  "questions":[
-    {"id":1,"content":"test",
-      "answers":[
-        {"id":1,"content":"test"}
-      ]
-    }
-  ]
-}
-
-<> 2024-06-02T123334.500.json
-
-###
-
-POST http://localhost:8080/api/polls
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Content-Type: application/json
-Content-Length: 296
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id":1,
-  "title":"test",  "description":"test","startDate":[2024,6,2,12,7,35,645463300],"endDate":[2024,6,9,12,7,35,652462200],"visibility":true,
-  "questions":[
-    {"id":1,"content":"test","poll":null,
-      "answers":[
-        {"id":1,"content":"test","question":null}
-      ]
-    }
-  ]
-}
-
-<> 2024-06-02T123206.500.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=Jane Doe&party=Progressive Party
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105623.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=Jane Doe
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105554.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=Jane Doe
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105531.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=Jane Doe
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105432.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=John
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105332.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=John&party=Party
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105223.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=John&party=Party
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwNDY2OX0.-ZbwBEv_3YMqPO_XdZStPAbJuwI_wGxgbMeGq7MSuCkll-tVkvEw_73-Obfw-0GPnWkDFyHdttXtWYSNu3MUOA
-<> 2024-06-02T105001.500.json:
-<> 2024-06-02T104310.500.json:
-<> 2024-06-02T104143.500.json:
-<> 2024-06-02T104111.500.json:
-<> 2024-06-02T103735.500.json:
-<> 2024-06-02T100507.500.json:
-<> 2024-06-02T100414.401.json:
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-POST http://localhost:8080/api/authenticate
-Content-Type: application/json
-Content-Length: 44
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "username": "user",
-"password": "user"
-}
-
-<> 2024-06-02T105109.200.json
-
-###
-
-GET http://localhost:8080/api/candidates?name=John&party=Party
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTcxNzQwMTg2N30.PMa1hB9VCwVFzz2R-Oamag74T9RBRnz-KU4HbQu2u0BTv1sG_DKhGp5c-ugis20jdaIPxMUJZTZLZNun-NJnVw
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-06-02T105001.500.json
+<> 2024-06-04T212229.200.json
 
 ###
 
