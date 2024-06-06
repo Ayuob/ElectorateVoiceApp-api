@@ -101,4 +101,22 @@ public class PollService {
     public Optional<Poll> getPoll(Long pollId) {
         return Optional.ofNullable(pollRepository.findByIdWithQuestions(pollId));
     }
+
+    @Transactional
+    public Poll updatePoll(Long pollId, Poll updatedPoll) {
+        Poll poll = pollRepository.findById(pollId).orElseThrow(() -> new ResourceNotFoundException("Poll not found"));
+        poll.setTitle(updatedPoll.getTitle());
+        poll.setDescription(updatedPoll.getDescription());
+        poll.setStartDate(updatedPoll.getStartDate());
+        poll.setEndDate(updatedPoll.getEndDate());
+        poll.setVisibility(updatedPoll.getVisibility());
+        // Update other fields as needed
+        return pollRepository.save(poll);
+    }
+
+    @Transactional
+    public void deletePoll(Long pollId) {
+        Poll poll = pollRepository.findById(pollId).orElseThrow(() -> new ResourceNotFoundException("Poll not found"));
+        pollRepository.delete(poll);
+    }
 }

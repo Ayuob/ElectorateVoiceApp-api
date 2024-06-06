@@ -44,6 +44,18 @@ public class PollController {
         return ResponseEntity.ok(Map.of("status", "success", "message", "Poll created successfully", "pollID", createdPollId));
     }
 
+    @PutMapping("/{pollId}")
+    public ResponseEntity<Poll> updatePoll(@PathVariable Long pollId, @RequestBody Poll updatedPoll) {
+        Poll poll = pollService.updatePoll(pollId, updatedPoll);
+        return ResponseEntity.ok(poll);
+    }
+
+    @DeleteMapping("/{pollId}")
+    public ResponseEntity<?> deletePoll(@PathVariable Long pollId) {
+        pollService.deletePoll(pollId);
+        return ResponseEntity.ok().body("Poll deleted successfully");
+    }
+
     @GetMapping
     public ResponseEntity<?> getAllPolls() {
         if (SecurityUtils.hasCurrentUserThisAuthority(AuthoritiesConstants.ADMIN)) {
